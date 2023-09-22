@@ -1,8 +1,19 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 int main()
 {
-    
-    return 0;
+    int n = 10;
+    if (n > 0)
+    {
+        cout << n << "is Positive" << endl;
+    }
+    if (n < 0)
+    {
+        cout << n << " is Negative";
+    }
+    else
+    {
+        cout << n << " is Zero" << endl;
+    }
 }
